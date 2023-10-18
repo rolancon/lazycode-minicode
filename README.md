@@ -33,8 +33,8 @@ Another characteristic of Lazycode is its visual aspect: every character on the 
 - there should be at most one or two newlines in between printable characters
 
 It is possible to automate the whitespace normalizaztion of Lazycode documents which do not follow the above whitespace rules. That proces could then also deal with two other whitespace characters, which commonly appear when creating or editing a document in a text editor, as follows:
-- a carriage return character before a newline character is dropped (other positions are invalid)
 - a tab character is replaced by one space character (whitespace normalization has to be done after the replacement)
+- a carriage return character before a newline character is dropped (other positions are invalid)
 
 ## Minicode
 
@@ -48,7 +48,7 @@ the 22 symbols
 
     ~ ` ! @ # $ % ^ & * ( ) _ + { } | : " < > ?
 
-for a total of 48 characters. The combined total number of characters in Minicode (since it extends Lazycode) is 96.
+for a total of 48 characters. The combined total number of characters in Minicode (since it extends Lazycode) is 96: it is the ASCII character set minus the control characters and the whitespace characters tab, carriage return, vertical tab and form feed.
 
 Minicode is more suited for extended programming codes, which can still be easily created and edited in a text editor, and processed with other programs. It can also be used to write texts. An example where Minicode has been used is in the [string datatype](https://github.com/rolancon/confetti#types) of Confetti.
 
