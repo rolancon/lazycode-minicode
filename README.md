@@ -33,7 +33,7 @@ Another characteristic of Lazycode is its visual aspect: every character on the 
 - newlines are only used to separate printable characters, they should not appear at the start or end of a document
 - the only exception is that two newlines may appear next to one another in between printable characters
 
-It is possible to automate the whitespace normalizaztion of Lazycode documents which do not follow the above whitespace rules. That proces could then also deal with to other whitespace characters as follows:
+It is possible to automate the whitespace normalizaztion of Lazycode documents which do not follow the above whitespace rules. That proces could then also deal with two other whitespace characters, which commonly appear when creating or editing a document in a text editor, as follows:
 - a carriage return character before a newline character is dropped (other positions are invalid)
 - a tab character is replaced by one space character (whitespace normalization has to be done after the replacement)
 
