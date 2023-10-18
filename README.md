@@ -12,14 +12,12 @@ the 10 digits
 the 26 lowercase letters
 
     q w e r t y u i o p a s d f g h j k l z x c v b n m
-
-the space character
-     
+    
 the following 10 symbols
 
     - = [ ] \ ; ' , . /
     
-and the newline character,
+the space character and the newline character,
 for a total of 48 characters.
 
 The digits, letters, and symbols are called printable characters, because they are visible on screen.
