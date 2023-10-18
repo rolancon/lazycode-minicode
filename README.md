@@ -13,7 +13,7 @@ the 26 lowercase letters
 
     q w e r t y u i o p a s d f g h j k l z x c v b n m
 
-the space character ( ).
+the space character
      
 the following 10 symbols
 
@@ -23,15 +23,15 @@ and the newline character.
 
 For a total of 48 characters.
 
-Lazycode is especially suitable for simple programming codes, which could be easily created and edited in a text editor, and processed .with other programs. An example where Lazycode has been used is the [Confetti](https://github.com/rolancon/confetti) data format language.
+Lazycode is especially suitable for simple programming codes, which could be easily created and edited in a text editor, and processed with other programs. An example where Lazycode has been used is the [Confetti](https://github.com/rolancon/confetti) data format language.
 
 ### Whitespace
 
-Another characteristic of Lazycode is its visual aspect: every character on the screen should be immediately identifiable (and easily replaceable). Thererefore whitespace (the space and newline) characters have limititations on how they can be combined, otherwise visually it would not be immediately clear which ones are spaces, and which ones newlines. The rules for whitespace are:
+Another characteristic of Lazycode is its visual aspect: every character on the screen should be immediately identifiable (and easily replaceable). Thererefore the whitespace (space and newline) characters have limititations on how they can be combined, otherwise visually it would not be immediately clear which ones are spaces, and which ones newlines. The rules for whitespace are:
 - spaces are only used to separate printable characters, they should not appear at the start or end of a document
 - there should be at most one space between two printable characters
 - newlines are only used to separate printable characters, they should not appear at the start or end of a document
-- the only exceptions is that two newlines may appear next to one another after a printable character when before a printable character
+- the only exception is that two newlines may appear next to one another in between printable characters
 
 It is possible to automate the whitespace normalizaztion of Lazycode documents which do not follow the above whitespace rules. That proces could then also deal with to other whitespace characters as follows:
 - a carriage return character before a newline character is dropped (other positions are invalid)
