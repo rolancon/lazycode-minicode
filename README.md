@@ -44,13 +44,15 @@ It is possible to automate the whitespace normalizaztion of Lazycode documents w
 Minicode is called mini code as a pun on Unicode: whereas Unicode contains all possible characters known to humankind, Minicode is the bare minimum character set from the ASCII subset of Unicode. It extends Lazycode with the remaining printable ASCII characters that appear on a QWERTY layout keyboard. The extended character set consists of [following the keyboard layout]:
 
 the 26 uppercase letters
+
     Q W E R T Y U I O P A S D F G H J K L Z X C V B N M
 
 the 22 symbols
+
     ~ ` ! @ # $ % ^ & * ( ) _ + { } | : " < > ?
 
 for a total of 48 characters. The combined total number of characters from both Lazycode and Minicode is 96.
 
-Minicode is more suited for extended programming codes, while it can still be easily created and edited in a text editor, and processed with other programs. It can also be used to write texts. An example where Minicode has been used is in the [string datatype](https://github.com/rolancon/confetti#types) of Confetti.
+Minicode is more suited for extended programming codes, which can still be easily created and edited in a text editor, and processed with other programs. It can also be used to write texts. An example where Minicode has been used is in the [string datatype](https://github.com/rolancon/confetti#types) of Confetti.
 
 The whitespace normalization rules of Lazycode might be relaxed if that suits the purpose of a particular usage of Minicode.
