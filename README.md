@@ -19,9 +19,8 @@ the following 10 symbols
 
     - = [ ] \ ; ' , . /
     
-and the newline character.
-
-For a total of 48 characters.
+and the newline character,
+for a total of 48 characters.
 
 The digits, letters, and symbols are called printable characters, because they are visible on screen.
 
