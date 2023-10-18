@@ -48,7 +48,7 @@ the 22 symbols
 
     ~ ` ! @ # $ % ^ & * ( ) _ + { } | : " < > ?
 
-for a total of 48 characters. The combined total number of characters of Minicode (since it extends Lazycode) is 96.
+for a total of 48 characters. The combined total number of characters in Minicode (since it extends Lazycode) is 96.
 
 Minicode is more suited for extended programming codes, which can still be easily created and edited in a text editor, and processed with other programs. It can also be used to write texts. An example where Minicode has been used is in the [string datatype](https://github.com/rolancon/confetti#types) of Confetti.
 
