@@ -49,7 +49,7 @@ the 26 uppercase letters
 
 and the 22 symbols
 
-    ~ ` ! @ # $ % ^ & * ( ) _ + { } | : " < > ?
+    ` ~ ! @ # $ % ^ & * ( ) _ + { } | : " < > ?
 
 for a total of 48 characters. The combined total number of characters in Minicode (since it extends Lazycode) is 96: it is the ASCII character set minus the control characters and the whitespace characters tab, carriage return, vertical tab and form feed.
 
