@@ -1,5 +1,5 @@
 # Lazycode-Minicode
-Lazycode is a subset of the [US-ASCII](https://en.wikipedia.org/wiki/ASCII) character set: it consists of all the characters which can be typed on a [US-QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout keyboard without using the Shift key or the CapsLock key. Minicode extends Lazycode with the remaining printable ASCII characters.
+Lazycode is a valid subset of the [US-ASCII](https://en.wikipedia.org/wiki/ASCII) character set, and therefore also a subset of [UTF-8](https://en.wikipedia.org/wiki/UTF-8): it consists of all the characters which can be typed on a [US-QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout keyboard without using the Shift key or the CapsLock key. Minicode extends Lazycode with the remaining printable ASCII characters, and optionally the tab and carriage return characters. A document that conforms to this subset of ASCII (and UTF-8) could get the _.text_ file extension, to distinguish is from documents with the more common _.txt_ extension, which could contain text in any character set, even ones that are not compatible with UTF-8.
 
 ## Lazycode
 
