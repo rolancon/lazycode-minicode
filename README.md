@@ -1,5 +1,5 @@
 # Lazycode-Minicode
-Lazycode is a valid subset of the [US-ASCII](https://en.wikipedia.org/wiki/ASCII) character set, and therefore also a subset of [UTF-8](https://en.wikipedia.org/wiki/UTF-8): it consists of all the characters which can be typed on a [US-QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout keyboard without using the Shift key or the CapsLock key. Minicode extends Lazycode with the remaining printable ASCII characters, and optionally the tab and carriage return characters. A document that conforms to this subset of ASCII (and UTF-8) could get the _.text_ file extension, to distinguish is from documents with the more common _.txt_ extension, which could contain text in any character set, even ones that are not compatible with UTF-8.
+Lazycode is a valid subset of the [US-ASCII](https://en.wikipedia.org/wiki/ASCII) character set, and therefore also a subset of [UTF-8](https://en.wikipedia.org/wiki/UTF-8): it consists of all the characters which can be typed on a [US-QWERTY](https://en.wikipedia.org/wiki/QWERTY) layout keyboard without using the Shift key or the CapsLock key. Minicode extends Lazycode with the remaining printable ASCII characters (and optionally the tab and carriage return characters, and the plus _+_ and uppercase _E_ characters). A document that conforms to this subset of ASCII (and UTF-8) could get the _.text_ file extension, to distinguish is from documents with the more common _.txt_ extension, which could contain text in any character set, even ones that are not compatible with UTF-8.
 
 ## Lazycode
 
@@ -22,7 +22,7 @@ for a total of 48 characters.
 
 The digits, letters, and symbols are called printable characters, because they are visible on screen.
 
-Lazycode is especially suitable for basic programming codes, which could be easily created and edited in a text editor, and processed with other programs. An example where Lazycode has been used is the simple [Confetti](https://github.com/rolancon/confetti) data format language.
+Lazycode is especially suitable for basic programming codes, which could be easily created and edited in a text editor, and processed with other programs. Examples where Lazycode has been used are the simple [K-V](https://github.com/rolancon/key-value) and [Confetti](https://github.com/rolancon/confetti) data definition languages.
 
 ### Whitespace
 
@@ -53,6 +53,6 @@ and the 22 symbols
 
 for a total of 48 characters. The combined total number of characters in Minicode (since it extends Lazycode) is 96: it is the ASCII character set minus the control characters and the whitespace characters tab, carriage return, vertical tab and form feed.
 
-Minicode is more suited for extended programming codes, which can still be easily created and edited in a text editor, and processed with other programs. It can also be used to write texts. An example where Minicode has been used is in the [string datatype](https://github.com/rolancon/confetti#types) of Confetti.
+Minicode is more suited for extended programming codes, which can still be easily created and edited in a text editor, and processed with other programs. It can also be used to write texts. An example where Minicode has been used is in the [string datatype](https://github.com/rolancon/key-value/blob/main/README.md#string) of K-V and Confetti.
 
 The whitespace normalization rules of Lazycode might be relaxed if that suits the purpose of a particular usage of Minicode.
