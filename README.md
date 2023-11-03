@@ -17,7 +17,7 @@ the following 10 symbols
 
     - = [ ] \ ; ' , . /
     
-and the space character and the newline character,
+and the space character and the newline character (also known as line feed character),
 for a total of 48 characters.
 
 The digits, letters, and symbols are called printable characters, because they are visible on screen.
